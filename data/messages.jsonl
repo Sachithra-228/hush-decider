@@ -1,0 +1,120 @@
+{"id": "dev-01", "split": "dev", "text": "Alice: @Hush what time is the client call tomorrow?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-02", "split": "dev", "text": "Mia: @Hush summarize what we decided so far", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-03", "split": "dev", "text": "Dev: Hush, note that Maria owns the demo.", "addressed": 1, "commitment": 1, "chitchat": 0, "action": "speak"}
+{"id": "dev-04", "split": "dev", "text": "Tom: Hey Hush, can you list the open action items?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-05", "split": "dev", "text": "Nina: @Hush who is presenting the roadmap on Thursday?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-06", "split": "dev", "text": "Carlos: Hush, what did Priya say about the budget earlier?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-07", "split": "dev", "text": "Zoe: @Hush please remind us when the sprint review starts.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-08", "split": "dev", "text": "Ken: Hush, how many people confirmed for the offsite?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-09", "split": "dev", "text": "Ana: @Hush draft a short recap of today's meeting.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-10", "split": "dev", "text": "Omar: Hush can you check if we already discussed pricing?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-11", "split": "dev", "text": "Lily: @Hush what's the deadline for the design handoff?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-12", "split": "dev", "text": "Ben: Hush, is the Q3 report finished?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-13", "split": "dev", "text": "Sara: @Hush explain that last message in simple words.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-14", "split": "dev", "text": "Jon: Hey @Hush, what were the three blockers again?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "dev-15", "split": "dev", "text": "Rita: Hush, add Friday's standup to the notes please.", "addressed": 1, "commitment": 1, "chitchat": 0, "action": "speak"}
+{"id": "dev-16", "split": "dev", "text": "Priya: I'll send the budget report to finance by Friday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-17", "split": "dev", "text": "Lena: We need to ship by the 30th, no exceptions.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-18", "split": "dev", "text": "Marcus: I'll book the conference room for Monday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-19", "split": "dev", "text": "Yuki: I can take the onboarding doc, will finish it by Wednesday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-20", "split": "dev", "text": "Fatima: Let's make sure the contract is signed by end of week.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-21", "split": "dev", "text": "Greg: I'll follow up with the vendor tomorrow morning.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-22", "split": "dev", "text": "Hannah: Deadline for the slides is Thursday 5pm.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-23", "split": "dev", "text": "Ivan: I'll review Sam's pull request tonight.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-24", "split": "dev", "text": "Chloe: I promise to have the test plan ready before the demo.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-25", "split": "dev", "text": "Raj: I'm going to fix the login bug by tomorrow.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-26", "split": "dev", "text": "Elena: The invoice needs to go out by the 15th.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-27", "split": "dev", "text": "Paul: I'll set up the staging server this afternoon.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-28", "split": "dev", "text": "Mei: We'll deliver the prototype to the client on Tuesday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-29", "split": "dev", "text": "Luis: I'll write the release notes before we deploy.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-30", "split": "dev", "text": "Dana: I'll email the agenda by noon.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "dev-31", "split": "dev", "text": "Bob: lol that meme was hilarious", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-32", "split": "dev", "text": "Raj: Thanks everyone, great meeting!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-33", "split": "dev", "text": "Amy: Good morning all!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-34", "split": "dev", "text": "Sue: haha same here", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-35", "split": "dev", "text": "Tim: Happy birthday Jess!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-36", "split": "dev", "text": "Nora: Nice weather today, finally some sun.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-37", "split": "dev", "text": "Kyle: brb, coffee", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-38", "split": "dev", "text": "Pam: That lunch was amazing.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-39", "split": "dev", "text": "Joe: lol yes", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-40", "split": "dev", "text": "Ivy: Have a good weekend, everyone!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-41", "split": "dev", "text": "Sam: Anyone know where the Q3 slides are?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-42", "split": "dev", "text": "Alex: Does anyone have the Wi-Fi password?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-43", "split": "dev", "text": "Rob: Priya, did you get a chance to look at the mockups?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-44", "split": "dev", "text": "Gina: Who's joining the 3pm call?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-45", "split": "dev", "text": "Hal: Is the printer on the second floor working?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-46", "split": "dev", "text": "Vera: Dev, can you share your screen?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-47", "split": "dev", "text": "Max: The server logs look fine from my side.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-48", "split": "dev", "text": "Cleo: I think the design is a bit too busy.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-49", "split": "dev", "text": "Dan: The client seemed happy with the demo.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-50", "split": "dev", "text": "Fay: Our traffic doubled last week.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-51", "split": "dev", "text": "Gus: That approach could work.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-52", "split": "dev", "text": "Isla: I read the spec, it's long.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-53", "split": "dev", "text": "Ned: Everyone hush for a second, the CEO is joining.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-54", "split": "dev", "text": "Opal: Can we keep this hush-hush until the announcement?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-55", "split": "dev", "text": "Pete: Hush was a good name for the project, honestly.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-56", "split": "dev", "text": "Quin: @Sam what's the status of the migration?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-57", "split": "dev", "text": "Rosa: Thanks Hush!", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-58", "split": "dev", "text": "Stan: Hush, thanks, that's all.", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "dev-59", "split": "dev", "text": "Tess: Maybe we could think about it next quarter.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "dev-60", "split": "dev", "text": "Uma: If we have time, I might look at the bug.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-01", "split": "test", "text": "Wes: @Hush when is the next board meeting?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-02", "split": "test", "text": "Xena: Hush, give me a quick summary of the last ten minutes.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-03", "split": "test", "text": "Yara: @Hush what did we agree on for the launch date?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-04", "split": "test", "text": "Zack: Hush, please note that I'm taking the API docs.", "addressed": 1, "commitment": 1, "chitchat": 0, "action": "speak"}
+{"id": "test-05", "split": "test", "text": "Abe: Hey Hush, who owns the payment integration?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-06", "split": "test", "text": "Bea: @Hush list everything assigned to Marcus.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-07", "split": "test", "text": "Cam: Hush, what's on the agenda for tomorrow?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-08", "split": "test", "text": "Dora: @Hush can you remind me what the budget cap was?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-09", "split": "test", "text": "Eli: Hush, record that the review moved to Friday.", "addressed": 1, "commitment": 1, "chitchat": 0, "action": "speak"}
+{"id": "test-10", "split": "test", "text": "Flo: @Hush has anyone mentioned the security audit?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-11", "split": "test", "text": "Gil: Hush, what are the next steps?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-12", "split": "test", "text": "Hope: @Hush explain what 'blocked' means in our tracker.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-13", "split": "test", "text": "Ian: Hush, how long did the demo run?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-14", "split": "test", "text": "Jade: @Hush tell us the top two risks we raised.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-15", "split": "test", "text": "Kai: Hush, can you pull up last week's decisions?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "test-16", "split": "test", "text": "Leo: I'll deploy the hotfix before 6pm.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-17", "split": "test", "text": "Maya: The beta must be live by November 1st.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-18", "split": "test", "text": "Nick: I will draft the press release by Thursday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-19", "split": "test", "text": "Olga: I'll sync with the design team tomorrow and report back.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-20", "split": "test", "text": "Quincy: I'm taking ownership of the migration plan, due next Monday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-21", "split": "test", "text": "Ruth: We have to submit the grant application by the 25th.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-22", "split": "test", "text": "Seth: I'll pay the vendor invoice this week.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-23", "split": "test", "text": "Tara: I'll run the load tests tonight.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-24", "split": "test", "text": "Umar: I'll get approval from legal by Wednesday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-25", "split": "test", "text": "Vic: Let's lock the scope by Friday, no more changes after that.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-26", "split": "test", "text": "Wendy: I'll prepare the demo environment before the call.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-27", "split": "test", "text": "Xavi: I'll update the roadmap by end of day.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-28", "split": "test", "text": "Yvonne: I will send the survey results on Monday.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-29", "split": "test", "text": "Zane: I'll fix the typo in the docs today.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-30", "split": "test", "text": "Amir: Our delivery date to the customer is the 12th.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "test-31", "split": "test", "text": "Beth: Haha that gif is perfect", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-32", "split": "test", "text": "Carl: Morning folks!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-33", "split": "test", "text": "Didi: Thanks all, see you tomorrow!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-34", "split": "test", "text": "Erin: ok cool", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-35", "split": "test", "text": "Finn: Congrats on the promotion, Tom!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-36", "split": "test", "text": "Gwen: The rain is crazy today.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-37", "split": "test", "text": "Hugo: Lunch was great, I'm already full.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-38", "split": "test", "text": "Iris: That was a fun retro.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-39", "split": "test", "text": "Jake: lol", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-40", "split": "test", "text": "Kate: Enjoy your vacation, Paul!", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-41", "split": "test", "text": "Liam: Does anyone know who set up the shared drive?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-42", "split": "test", "text": "Mona: Chris, are you free to pair on this later?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-43", "split": "test", "text": "Nate: What time does the office close on Friday?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-44", "split": "test", "text": "Opie: Has the build finished yet?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-45", "split": "test", "text": "Pia: Anyone seen the HDMI cable?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-46", "split": "test", "text": "Rex: Jess, did the client reply to your email?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-47", "split": "test", "text": "Sid: The latency looks higher than last week.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-48", "split": "test", "text": "Tina: I don't love the new logo.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-49", "split": "test", "text": "Uri: The team seemed tired after the release.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-50", "split": "test", "text": "Val: That bug is annoying.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-51", "split": "test", "text": "Walt: The proposal reads well.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-52", "split": "test", "text": "Xia: Nothing new from the vendor yet.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-53", "split": "test", "text": "Yan: Can everyone hush, I can't hear Anna.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-54", "split": "test", "text": "Zoe: The hush-hush project is almost done.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-55", "split": "test", "text": "Adam: Hush is a funny name for a bot.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-56", "split": "test", "text": "Bree: @Dev can you take a look at the failing test?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-57", "split": "test", "text": "Cody: Thanks Hush, that helped!", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-58", "split": "test", "text": "Dina: Hush, never mind.", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "test-59", "split": "test", "text": "Evan: Maybe we should consider moving the launch someday.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "test-60", "split": "test", "text": "Fern: I might possibly have time to look at it next week.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
