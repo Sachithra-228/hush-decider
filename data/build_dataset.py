@@ -152,6 +152,41 @@ TEST = [
     ("Fern: I might possibly have time to look at it next week.", 0, 0, 0),
 ]
 
+# Hard split: written to defeat keyword rules (implicit commitments, "hush" used as a
+# normal word, "I'll"/"need to"/"deadline" without a real commitment, odd casing).
+HARD = [
+    ("Quick one for you, Hush: what's the refund policy?", 1, 0, 0),
+    ("Could you recap the decisions, Hush?", 1, 0, 0),
+    ("hush, what time does the demo start", 1, 0, 0),
+    ("Before we move on, Hush, did we agree on the budget?", 1, 0, 0),
+    ("HUSH what are today's action items", 1, 0, 0),
+    ("Okay Hush, remind us who volunteered for the demo.", 1, 0, 0),
+    ("Friday works for me, count me in for the slides.", 0, 1, 0),
+    ("Consider it done, the contract is mine.", 0, 1, 0),
+    ("Sure, I own the QA sign-off.", 0, 1, 0),
+    ("Leave the vendor call to me, I'll handle it.", 0, 1, 0),
+    ("I can have the draft in your inbox before lunch tomorrow.", 0, 1, 0),
+    ("Put me down for the demo setup.", 0, 1, 0),
+    ("The audit report is due the 28th, no extensions.", 0, 1, 0),
+    ("I'll be honest, that idea is terrible.", 0, 0, 0),
+    ("We need to talk about how loud the office is, lol", 0, 0, 1),
+    ("That deadline last quarter was ridiculous.", 0, 0, 0),
+    ("I will never understand this tracker.", 0, 0, 0),
+    ("Remember, the 2019 release was due by Friday and still slipped.", 0, 0, 0),
+    ("Shh, hush everyone, the speaker is starting.", 0, 0, 0),
+    ("My daughter says hush whenever I sing.", 0, 0, 0),
+    ("Hush puppies are the best part of the menu.", 0, 0, 0),
+    ("Hush, you're hilarious lol", 1, 0, 1),
+    ("Anyone know who's covering the on-call this weekend?", 0, 0, 0),
+    ("Thanks Hush, great recap earlier!", 1, 0, 1),
+    ("Maria, can you handle the invoice? Hush is busy with notes.", 0, 0, 0),
+    ("I might be able to help next week, not sure yet.", 0, 0, 0),
+    ("It would be nice to have the report by Friday.", 0, 0, 0),
+    ("Honestly the Friday deadline stresses me out.", 0, 0, 0),
+    ("Great point, Dana, I agree.", 0, 0, 1),
+    ("lol we should totally ask Hush to write our emails", 0, 0, 0),
+]
+
 
 def gold_action(addressed, commitment, chitchat):
     if addressed and not chitchat:
@@ -163,7 +198,7 @@ def gold_action(addressed, commitment, chitchat):
 
 def main():
     rows = []
-    for split, items in (("dev", DEV), ("test", TEST)):
+    for split, items in (("dev", DEV), ("test", TEST), ("hard", HARD)):
         for i, (text, a, c, h) in enumerate(items, 1):
             rows.append(
                 {
@@ -181,7 +216,7 @@ def main():
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"wrote {len(rows)} rows to {out}")
-    for split in ("dev", "test"):
+    for split in ("dev", "test", "hard"):
         print(split, dict(Counter(r["action"] for r in rows if r["split"] == split)))
 
 

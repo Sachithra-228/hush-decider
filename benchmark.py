@@ -21,7 +21,7 @@ import urllib.error
 from collections import Counter
 from pathlib import Path
 
-from speak_gate import decide, ask_decider, Action
+from patterns.speak_or_stay_silent.speak_gate import decide, ask_decider, Action
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data" / "messages.jsonl"
@@ -160,6 +160,30 @@ def main():
     out.append("\nFalse interruption = Hush spoke when it should not have. Missed answer = Hush stayed quiet when asked.\n")
     out.append("### Confusion matrix (Decider, tuned thresholds)\n")
     out.append(confusion_table(first["conf"]))
+
+    hard = [r for r in rows if r["split"] == "hard"]
+    if hard:
+        hgold = [r["action"] for r in hard]
+        out.append(f"\n## Hard split ({len(hard)} messages written to defeat keyword rules, same thresholds)\n")
+        out.append("| method | accuracy | false interruptions | missed answers | missed notes |")
+        out.append("|---|---|---|---|---|")
+        hres = {
+            f"Decider + speak_gate (HI={hi:.2f}, LO={lo:.2f})": predict(hard, cache, hi, lo),
+            "Decider + speak_gate (fixed 0.65 / 0.35)": predict(hard, cache, 0.65, 0.35),
+            "Keyword baseline (regex)": [keyword_action(r["text"]) for r in hard],
+        }
+        for name, hp in hres.items():
+            m = metrics(hgold, hp)
+            out.append(f"| {name} | {m['acc']:.1%} | {m['false_speak']} | {m['missed_speak']} | {m['missed_note']} |")
+        first_h = list(hres.values())[0]
+        out.append("\nHard messages the tuned Decider got wrong:\n")
+        bad = [(r, p) for r, p in zip(hard, first_h) if r["action"] != p]
+        for r, p in bad or []:
+            s = cache[r["id"]]["signals"]
+            out.append(f"- `{r['text']}` gold={r['action']} got={p} (addressed {s['addressed']:.2f}, "
+                       f"commitment {s['commitment']:.2f}, chitchat {s['chitchat']:.2f})")
+        if not bad:
+            out.append("None.")
 
     lat = [cache[r["id"]]["server_ms"] for r in rows if cache[r["id"]].get("server_ms")]
     wall = [cache[r["id"]]["wall_ms"] for r in rows]

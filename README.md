@@ -18,9 +18,9 @@ Decision pattern: `#policy` (classify an incoming message before the agent acts)
 
 ## The reusable pattern: speak-or-stay-silent gate
 
-- Typed questions: three `noul` (yes/no) questions in `speak_gate.py` (`QUESTIONS`).
-- Decision code: `decide()` maps the three probabilities to speak / note / silent with two thresholds.
-- Wiring: `gate(message)` is one function call; the Strands `InterventionHandler` wiring is coming next.
+Everything is in [`patterns/speak_or_stay_silent/`](patterns/speak_or_stay_silent/README.md): the typed
+questions, the decision code, and a Strands `InterventionHandler` (`HushGate`) that stops the agent
+before any model call unless Hush should speak.
 
 Why three yes/no questions and not one 3-way choice: on our first test the 3-way choice was unsure on a
 message that clearly addressed the assistant (confidence 0.18), while the yes/no question on the same
@@ -31,13 +31,15 @@ message was decisive (0.83). Question design changed the result.
 ```
 pip install strands-decider strands-agents boto3
 strands-decider serve StrandsAgents/strands-decider-2B-hobson-v21 --port 8000
-python demo.py
-python benchmark.py
+python demo.py                      # decisions only, no AWS needed
+python benchmark.py                 # accuracy on 150 labeled messages
+python -m tests.test_hush_gate      # offline test with a stub model
+python run_meeting.py               # full agent (needs Bedrock access)
 ```
 
 ## Benchmark
 
-`data/messages.jsonl` holds 120 labeled messages (60 dev, 60 test). Thresholds are tuned on dev only;
+`data/messages.jsonl` holds 150 labeled messages: 60 dev, 60 test and 30 hard ones written to defeat keyword rules. Thresholds are tuned on dev only;
 numbers are reported on test, next to a keyword baseline and an always-silent baseline.
 Results are written to `results/benchmark_report.md`.
 

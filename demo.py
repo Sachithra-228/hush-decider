@@ -1,4 +1,4 @@
-from speak_gate import gate
+from patterns.speak_or_stay_silent.speak_gate import gate
 
 MESSAGES = [
     "Bob: lol that meme was hilarious",

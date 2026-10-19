@@ -118,3 +118,33 @@
 {"id": "test-58", "split": "test", "text": "Dina: Hush, never mind.", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
 {"id": "test-59", "split": "test", "text": "Evan: Maybe we should consider moving the launch someday.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
 {"id": "test-60", "split": "test", "text": "Fern: I might possibly have time to look at it next week.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-01", "split": "hard", "text": "Quick one for you, Hush: what's the refund policy?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-02", "split": "hard", "text": "Could you recap the decisions, Hush?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-03", "split": "hard", "text": "hush, what time does the demo start", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-04", "split": "hard", "text": "Before we move on, Hush, did we agree on the budget?", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-05", "split": "hard", "text": "HUSH what are today's action items", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-06", "split": "hard", "text": "Okay Hush, remind us who volunteered for the demo.", "addressed": 1, "commitment": 0, "chitchat": 0, "action": "speak"}
+{"id": "hard-07", "split": "hard", "text": "Friday works for me, count me in for the slides.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-08", "split": "hard", "text": "Consider it done, the contract is mine.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-09", "split": "hard", "text": "Sure, I own the QA sign-off.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-10", "split": "hard", "text": "Leave the vendor call to me, I'll handle it.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-11", "split": "hard", "text": "I can have the draft in your inbox before lunch tomorrow.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-12", "split": "hard", "text": "Put me down for the demo setup.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-13", "split": "hard", "text": "The audit report is due the 28th, no extensions.", "addressed": 0, "commitment": 1, "chitchat": 0, "action": "note"}
+{"id": "hard-14", "split": "hard", "text": "I'll be honest, that idea is terrible.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-15", "split": "hard", "text": "We need to talk about how loud the office is, lol", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "hard-16", "split": "hard", "text": "That deadline last quarter was ridiculous.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-17", "split": "hard", "text": "I will never understand this tracker.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-18", "split": "hard", "text": "Remember, the 2019 release was due by Friday and still slipped.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-19", "split": "hard", "text": "Shh, hush everyone, the speaker is starting.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-20", "split": "hard", "text": "My daughter says hush whenever I sing.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-21", "split": "hard", "text": "Hush puppies are the best part of the menu.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-22", "split": "hard", "text": "Hush, you're hilarious lol", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "hard-23", "split": "hard", "text": "Anyone know who's covering the on-call this weekend?", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-24", "split": "hard", "text": "Thanks Hush, great recap earlier!", "addressed": 1, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "hard-25", "split": "hard", "text": "Maria, can you handle the invoice? Hush is busy with notes.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-26", "split": "hard", "text": "I might be able to help next week, not sure yet.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-27", "split": "hard", "text": "It would be nice to have the report by Friday.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-28", "split": "hard", "text": "Honestly the Friday deadline stresses me out.", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
+{"id": "hard-29", "split": "hard", "text": "Great point, Dana, I agree.", "addressed": 0, "commitment": 0, "chitchat": 1, "action": "silent"}
+{"id": "hard-30", "split": "hard", "text": "lol we should totally ask Hush to write our emails", "addressed": 0, "commitment": 0, "chitchat": 0, "action": "silent"}
